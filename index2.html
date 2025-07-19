@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Skyveil – Smart Weather App</title>
+    <link rel="shortcut icon" href="assets/img/Skyveil.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style2.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="head">
+                <input type="text" name="location" id="loc" placeholder=" enter (city/country) name"   required>
+                <button id="getWeather"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+
+        <div class="mainer">
+            <div class="main">
+                <h1 id="header" class="locname" class="city">Today's weather</h1>
+                <hr class="line">
+                <div class="contain">
+                    <div class="part1">
+                        <p id="city">amman</p>
+                        <p id="date">Friday,May 17</p>
+                    </div>
+                    <div class="part2">
+                        <p id="temp">24&#8451</p>
+                    </div>
+                    <div class="part3">
+                        <h3 class="hpart3">partly cloudy</h3>
+                        <p id="description">weather condition:</p>
+                        <p id="humidity">Humidity:</p>
+                        <p id="wind">Wind speed: </p>
+                    </div>
+                    <div id="weeklyForecast">
+
+                    </div>
+                    <div class="part4">
+                        <span>&#127780;</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="assets/js/script.js"></script>
+
+</html>
